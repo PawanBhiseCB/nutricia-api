@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>nutricia_api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="App_Start\" />
+    <Folder Include="Auth\" />
+    <Folder Include="Controller\" />
+    <Folder Include="Core\Common\" />
+    <Folder Include="Core\Const\" />
+    <Folder Include="Core\Error\" />
+    <Folder Include="Core\Interface\" />
+    <Folder Include="Core\Service\" />
+    <Folder Include="Core\Repositories\" />
+    <Folder Include="Job\" />
+    <Folder Include="Logs\" />
+    <Folder Include="MiddleWare\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+</Project>
