@@ -12,3 +12,19 @@ Release/
 # Others
 *.log
 *.vsidx
+
+## --- Allow core source folders ---
+!Controllers/
+!Models/
+!Views/
+!wwwroot/
+!Migrations/
+!Properties/
+
+## Allow source files
+!*.cs
+!*.csproj
+!*.sln
+!*.json
+!*.xml
+!*.config
